@@ -12,7 +12,7 @@ String buildType = "${env.buildType}"
 String buildShell = "${env.buildShell}"
 String deployHosts = "${env.deployHosts}"
 
-String srcUrl = "${env.buildType}"
+String srcUrl = "${env.srcUrl}"
 String branchName = "${env.branchName}"
 
 //pipeline
