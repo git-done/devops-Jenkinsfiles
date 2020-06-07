@@ -30,7 +30,6 @@ pipeline{
 			steps{
 				script{
 					build.Build(buildType,buildShell)
-					
 					//deploy.SaltDeploy("${deployHosts}","test.ping")
 					//deploy.AnsibleDeploy("${deployHosts}","-m ping")
 					
